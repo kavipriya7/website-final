@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwatch Pro X</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #2f9ece;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            gap: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image {
+            flex: 1;
+        }
+
+        .product-image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-details {
+            flex: 2;
+        }
+
+        .product-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .product-price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e91e63;
+            margin: 10px 0;
+        }
+
+        .product-description {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .product-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .product-actions button {
+            flex: 1;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .add-to-cart {
+            background-color: #ff9800;
+        }
+
+        .add-to-cart:hover {
+            background-color: #e67e22;
+            transform: translateY(-2px);
+        }
+
+        .wishlist {
+            background-color: #8e44ad;
+        }
+
+        .wishlist:hover {
+            background-color: #9b59b6;
+            transform: translateY(-2px);
+        }
+        .buy-now {
+            background-color: #8ac81f;
+        }
+
+        .buy-now:hover {
+            background-color: #7aeb17;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2f9ece;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gadget Store</h1>
+    </header>
+
+    <div class="container">
+        <!-- Product Image -->
+        <div class="product-image">
+            <img src="watch.jpg" alt="Smartwatch Pro X">
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h2 class="product-title">Smartwatch Pro X (42mm, AMOLED Display, Bluetooth Calling)</h2>
+            <p class="product-price">₹15,999</p>
+            <p class="product-description">
+                The Smartwatch Pro X is the ultimate wearable for fitness enthusiasts and tech lovers. Featuring a vivid 42mm AMOLED display, built-in GPS, and Bluetooth calling, it offers a seamless experience for your daily activities. Track your workouts, monitor your health, and stay connected—all from your wrist.
+            </p>
+            <ul>
+                <li>42mm AMOLED Display with Always-On</li>
+                <li>Bluetooth Calling and Voice Assistant</li>
+                <li>Heart Rate, SpO2, and Sleep Monitoring</li>
+                <li>Multiple Workout Modes</li>
+                <li>Built-in GPS and 5ATM Water Resistance</li>
+                <li>Up to 10 Days of Battery Life</li>
+                <li>Available in Black, Silver, and Rose Gold</li>
+            </ul>
+            <div class="product-actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">Add to Wishlist</button>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gadget Store. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

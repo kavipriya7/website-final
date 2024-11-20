@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Galaxy S23 Ultra 5G</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #2f9ece;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            gap: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image {
+            flex: 1;
+        }
+
+        .product-image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-details {
+            flex: 2;
+        }
+
+        .product-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .product-price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e91e63;
+            margin: 10px 0;
+        }
+
+        .product-description {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .product-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .product-actions button {
+            flex: 1;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .add-to-cart {
+            background-color: #ff9800;
+        }
+
+        .add-to-cart:hover {
+            background-color: #e67e22;
+            transform: translateY(-2px);
+        }
+
+        .wishlist {
+            background-color: #8e44ad;
+        }
+
+        .wishlist:hover {
+            background-color: #9b59b6;
+            transform: translateY(-2px);
+        }
+        .buy-now {
+            background-color: #8ac81f;
+        }
+
+        .buy-now:hover {
+            background-color: #7aeb17;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2f9ece;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gadget Store</h1>
+    </header>
+
+    <div class="container">
+        <!-- Product Image -->
+        <div class="product-image">
+            <img src="phone.jpg" alt="Samsung Galaxy S23 Ultra 5G">
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h2 class="product-title">Samsung Galaxy S23 Ultra 5G (12GB RAM, 256GB Storage)</h2>
+            <p class="product-price">₹1,24,999</p>
+            <p class="product-description">
+                The Samsung Galaxy S23 Ultra 5G is powered by the latest Snapdragon 8 Gen 2 processor, delivering ultra-fast performance. Featuring a stunning 6.8-inch QHD+ Dynamic AMOLED 2X display with a 120Hz refresh rate, it ensures an immersive viewing experience. Capture every detail with the 200MP quad-camera setup and enjoy all-day battery life with the 5000mAh battery. It's the ultimate smartphone for photography enthusiasts and tech lovers.
+            </p>
+            <ul>
+                <li>200MP + 12MP + 10MP + 10MP Rear Camera</li>
+                <li>12MP Front Camera</li>
+                <li>6.8-inch Dynamic AMOLED 2X, 120Hz Refresh Rate</li>
+                <li>5000mAh Battery with 45W Fast Charging</li>
+                <li>Android 13 OS</li>
+                <li>Available Colors: Phantom Black, Green, Cream, Lavender</li>
+            </ul>
+            <div class="product-actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">Add to Wishlist</button>
+                <button class="buy-now">Buy Now</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gadget Store. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadget Hub</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('index-bg.avif') no-repeat center center fixed; /* Replace with your image path */
+            background-size: cover;
+            color: #fff;
+        }
+
+        /* Header Section */
+        header {
+            background: rgba(47, 158, 206, 0.9); /* Semi-transparent background */
+            color: white;
+            padding: 20px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo-placeholder img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffdf5e;
+        }
+
+        nav a::after {
+            content: "";
+            display: block;
+            height: 2px;
+            background-color: #ffdf5e;
+            width: 0;
+            transition: width 0.3s ease;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        /* Main Content */
+        .container {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .container h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .description {
+            font-size: 18px;
+            color: #ffffff;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+
+        /* Buttons */
+        .btn-group {
+            margin-top: 30px;
+        }
+
+        .btn-group a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            background: linear-gradient(90deg, #1e88e5, #2f9ece);
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-group a:hover {
+            background: linear-gradient(90deg, #ffdf5e, #ffa726);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+    text-align: center;
+    padding: 30px;
+    background: #1e88e5;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    margin-top: 140px;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-placeholder">
+            <img src="logo.png" alt="Gadget Hub Logo"> <!-- Replace with your logo path -->
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Welcome to Gadget Hub</h1>
+        <p class="description">
+            <ul>
+            Gadget Hub is your one-stop destination for the latest tech gadgets, reviews, and deals. 
+            </ul>
+            <ul>
+            Explore our wide range of products and stay updated with the newest trends in technology!
+            </ul>
+        </p>
+        
+        <div class="btn-group">
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 Gadget Hub | All Rights Reserved
+    </footer>
+</body>
+</html>

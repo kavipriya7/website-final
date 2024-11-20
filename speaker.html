@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluetooth Speaker Pro</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #2f9ece;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            gap: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image {
+            flex: 1;
+        }
+
+        .product-image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-details {
+            flex: 2;
+        }
+
+        .product-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .product-price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e91e63;
+            margin: 10px 0;
+        }
+
+        .product-description {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .product-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .product-actions button {
+            flex: 1;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .add-to-cart {
+            background-color: #ff9800;
+        }
+
+        .add-to-cart:hover {
+            background-color: #e67e22;
+            transform: translateY(-2px);
+        }
+
+        .wishlist {
+            background-color: #8e44ad;
+        }
+
+        .wishlist:hover {
+            background-color: #9b59b6;
+            transform: translateY(-2px);
+        }
+        .buy-now {
+            background-color: #8ac81f;
+        }
+
+        .buy-now:hover {
+            background-color: #7aeb17;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2f9ece;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gadget Store</h1>
+    </header>
+
+    <div class="container">
+        <!-- Product Image -->
+        <div class="product-image">
+            <img src="speaker.jpg" alt="Bluetooth Speaker Pro">
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h2 class="product-title">Bluetooth Speaker Pro (Portable, 20W, IPX7 Waterproof)</h2>
+            <p class="product-price">₹4,999</p>
+            <p class="product-description">
+                Experience immersive sound with the Bluetooth Speaker Pro, featuring powerful 20W drivers and deep bass. Compact, portable, and IPX7 waterproof, this speaker is perfect for parties, outdoor adventures, or everyday use. Enjoy seamless connectivity and long battery life for non-stop music.
+            </p>
+            <ul>
+                <li>Powerful 20W Output with Deep Bass</li>
+                <li>Bluetooth 5.0 for Seamless Connectivity</li>
+                <li>IPX7 Waterproof Design</li>
+                <li>Up to 12 Hours of Battery Life</li>
+                <li>Compact and Portable with Built-in Mic</li>
+                <li>Available in Black, Blue, and Red</li>
+            </ul>
+            <div class="product-actions">
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist">Add to Wishlist</button>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gadget Store. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
